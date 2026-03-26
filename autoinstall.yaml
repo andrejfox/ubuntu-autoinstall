@@ -12,7 +12,7 @@ autoinstall:
   timezone: Europe/Ljubljana
   storage:
     layout:
-      name: direct
+      name: lvm
   packages:
     - btop
     - curl
