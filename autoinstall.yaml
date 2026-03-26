@@ -27,17 +27,28 @@ autoinstall:
     - git
     - vim
 
-  snaps:
-    - name: inkscape
-    - name: blender
-    - name: kicad
-    - name: firefox
+snaps:
+  - name: inkscape
 
-    - name: godot
-      classic: true
+  - name: arduino
+    classic: true
 
-    - name: arduino
-      classic: true
-      
-    - name: code
-      classic: true
+  - name: blender
+
+  - name: kicad
+
+  - name: gimp
+
+  - name: krita
+
+  - name: libreoffice
+
+  - name: prusaslicer
+
+  - name: godot
+    classic: true
+
+  - name: firefox
+
+  - name: code
+    classic: true
