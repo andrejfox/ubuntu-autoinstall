@@ -2,4 +2,6 @@
 autoinstall:
   version: 1
   early-commands:
+    - echo "Waiting for network..."
+    - while ! ping -c1 raw.githubusercontent.com; do sleep 1; done
     - wget -O /autoinstall.yaml https://raw.githubusercontent.com/andrejfox/ubuntu-autoinstall/main/autoinstall.yaml
