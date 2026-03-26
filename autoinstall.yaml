@@ -6,9 +6,9 @@ autoinstall:
     username: rampa
     password: "$6$9pz.W/BneddCyoM4$cdVS3xpJRyw/NgMuP2OpcIAay2RUBug.YxGQOUuuK/5mVc4e1H72Cb1T8ZxftqC.2RPUqIMzOncuyn2DG/glg/"
   updates: all
-  locale: en_US.UTF-8
+  locale: "en_US.UTF-8"
   keyboard:
-    layout: si
+    layout: "si"
   timezone: Europe/Ljubljana
   storage:
     layout:
