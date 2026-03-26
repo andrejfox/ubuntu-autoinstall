@@ -1,54 +1,36 @@
 #cloud-config
 autoinstall:
   version: 1
-
   identity:
     hostname: ubuntu
     username: rampa
     password: "$6$9pz.W/BneddCyoM4$cdVS3xpJRyw/NgMuP2OpcIAay2RUBug.YxGQOUuuK/5mVc4e1H72Cb1T8ZxftqC.2RPUqIMzOncuyn2DG/glg/"
-
   updates: all
-
   locale: en_US.UTF-8
-
   keyboard:
     layout: si
-
   timezone: Europe/Ljubljana
-
   storage:
     layout:
       name: lvm
-
   packages:
     - btop
     - curl
     - neofetch
     - git
     - vim
-
-snaps:
-  - name: inkscape
-
-  - name: arduino
-    classic: true
-
-  - name: blender
-
-  - name: kicad
-
-  - name: gimp
-
-  - name: krita
-
-  - name: libreoffice
-
-  - name: prusaslicer
-
-  - name: godot
-    classic: true
-
-  - name: firefox
-
-  - name: code
-    classic: true
+  snaps:
+    - name: inkscape
+    - name: arduino
+      classic: true
+    - name: blender
+    - name: kicad
+    - name: gimp
+    - name: krita
+    - name: libreoffice
+    - name: prusaslicer
+    - name: godot
+      classic: true
+    - name: firefox
+    - name: code
+      classic: true
