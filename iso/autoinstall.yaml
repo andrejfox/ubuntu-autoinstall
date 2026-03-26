@@ -1,0 +1,5 @@
+#cloud-config
+autoinstall:
+  version: 1
+  early-commands:
+    - wget -O /autoinstall.yaml https://raw.githubusercontent.com/andrejfox/ubuntu-autoinstall/main/autoinstall.yaml
