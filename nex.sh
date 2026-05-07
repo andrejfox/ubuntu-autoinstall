@@ -56,22 +56,6 @@ else
     flatpak install -y flathub "$APP_ID"
 fi
 
-# -----------------------------
-# Configure autostart
-# -----------------------------
-echo "Configuring autostart..."
-
-mkdir -p "$AUTOSTART_DIR"
-
-cat > "$AUTOSTART_FILE" <<EOF
-[Desktop Entry]
-Type=Application
-Name=Nextcloud
-Exec=flatpak run $APP_ID
-X-GNOME-Autostart-enabled=true
-Terminal=false
-Hidden=false
-EOF
 
 # -----------------------------
 # Launch only if not running
