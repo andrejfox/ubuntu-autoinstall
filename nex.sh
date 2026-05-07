@@ -8,19 +8,6 @@ AUTOSTART_FILE="$AUTOSTART_DIR/nextcloud-flatpak.desktop"
 
 echo "=== Nextcloud Flatpak Installer ==="
 
-
-# -----------------------------
-# Create ~/Nextcloud if missing
-# -----------------------------
-NEXTCLOUD_DIR="$HOME/Nextcloud"
-
-if [ ! -d "$NEXTCLOUD_DIR" ]; then
-    echo "Creating Nextcloud directory..."
-    mkdir -p "$NEXTCLOUD_DIR"
-else
-    echo "Nextcloud directory already exists."
-fi
-
 # -----------------------------
 # Install Flatpak if missing
 # -----------------------------
