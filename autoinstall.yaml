@@ -28,7 +28,6 @@ autoinstall:
     - name: gimp
     - name: krita
     - name: libreoffice
-    - name: prusaslicer
     - name: godot
       classic: true
     - name: firefox
