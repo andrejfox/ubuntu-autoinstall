@@ -34,3 +34,4 @@ autoinstall:
     - name: firefox
     - name: code
       classic: true
+    - name: nextcloud-desktop-client
