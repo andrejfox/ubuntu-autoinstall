@@ -7,3 +7,5 @@ sudo apt update && sudo apt install -y curl && bash <(curl -fsSL https://raw.git
 # script to install nextcloud and ustostart it
 bash <(curl -fsSL https://raw.githubusercontent.com/andrejfox/ubuntu-autoinstall/main/nex.sh)
 ```
+
+`https://oblak.kersnikova.org`
